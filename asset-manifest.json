@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/OurLiftStory.com/static/css/main.643903b0.css",
+    "main.js": "/OurLiftStory.com/static/js/main.12a02099.js",
+    "static/js/787.e8d8a935.chunk.js": "/OurLiftStory.com/static/js/787.e8d8a935.chunk.js",
+    "static/media/vidBg.mp4": "/OurLiftStory.com/static/media/vidBg.810d342b35c66141fa61.mp4",
+    "static/media/bg4.jpg": "/OurLiftStory.com/static/media/bg4.ead847e553fa9d173cc0.jpg",
+    "static/media/bg3.jpg": "/OurLiftStory.com/static/media/bg3.1aa07304ea5e6976b6ca.jpg",
+    "static/media/foodbg2.jpg": "/OurLiftStory.com/static/media/foodbg2.bd5605de325501a737b2.jpg",
+    "static/media/bg6.jpg": "/OurLiftStory.com/static/media/bg6.527e90276ae31619c09b.jpg",
+    "static/media/oppenheimer.mp3": "/OurLiftStory.com/static/media/oppenheimer.2eeeecb0b80ea465e3d1.mp3",
+    "static/media/phoneBg1.jpg": "/OurLiftStory.com/static/media/phoneBg1.12fec13e0918d9ad84a3.jpg",
+    "static/media/phoneBg2.jpg": "/OurLiftStory.com/static/media/phoneBg2.0e374fe9905c1a9af6d8.jpg",
+    "static/media/foodbg.jpg": "/OurLiftStory.com/static/media/foodbg.8c8d2baf50017d12e2b8.jpg",
+    "static/media/arnoldXBroSplitBg.jpg": "/OurLiftStory.com/static/media/arnoldXBroSplitBg.66f3ed6922457f947312.jpg",
+    "static/media/bg5.jpg": "/OurLiftStory.com/static/media/bg5.470c2687e163c74bcc9d.jpg",
+    "static/media/spartan.png": "/OurLiftStory.com/static/media/spartan.1ef3c000adafc2586baa.png",
+    "static/media/broSplitBg.jpeg": "/OurLiftStory.com/static/media/broSplitBg.176d1e0a36d19f890b13.jpeg",
+    "static/media/logo.png": "/OurLiftStory.com/static/media/logo.d4dc6ffbde5dff9cb222.png",
+    "static/media/insta.svg": "/OurLiftStory.com/static/media/insta.f930497e9f02859df3ac5ee5739613ce.svg",
+    "index.html": "/OurLiftStory.com/index.html",
+    "static/media/play-mini-line.svg": "/OurLiftStory.com/static/media/play-mini-line.7d438166aac8744484ac629df4b3705f.svg",
+    "static/media/pause-line.svg": "/OurLiftStory.com/static/media/pause-line.a078b1d06f6822beb62368a6b7993f1e.svg",
+    "main.643903b0.css.map": "/OurLiftStory.com/static/css/main.643903b0.css.map",
+    "main.12a02099.js.map": "/OurLiftStory.com/static/js/main.12a02099.js.map",
+    "787.e8d8a935.chunk.js.map": "/OurLiftStory.com/static/js/787.e8d8a935.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.643903b0.css",
+    "static/js/main.12a02099.js"
+  ]
+}
