@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OurLiftStory.com/static/css/main.643903b0.css",
-    "main.js": "/OurLiftStory.com/static/js/main.8288fbd7.js",
+    "main.css": "/OurLiftStory.com/static/css/main.3946d989.css",
+    "main.js": "/OurLiftStory.com/static/js/main.54920472.js",
     "static/js/787.e8d8a935.chunk.js": "/OurLiftStory.com/static/js/787.e8d8a935.chunk.js",
     "static/media/vidBg.mp4": "/OurLiftStory.com/static/media/vidBg.810d342b35c66141fa61.mp4",
     "static/media/bg4.jpg": "/OurLiftStory.com/static/media/bg4.ead847e553fa9d173cc0.jpg",
@@ -21,12 +21,12 @@
     "index.html": "/OurLiftStory.com/index.html",
     "static/media/play-mini-line.svg": "/OurLiftStory.com/static/media/play-mini-line.7d438166aac8744484ac629df4b3705f.svg",
     "static/media/pause-line.svg": "/OurLiftStory.com/static/media/pause-line.a078b1d06f6822beb62368a6b7993f1e.svg",
-    "main.643903b0.css.map": "/OurLiftStory.com/static/css/main.643903b0.css.map",
-    "main.8288fbd7.js.map": "/OurLiftStory.com/static/js/main.8288fbd7.js.map",
+    "main.3946d989.css.map": "/OurLiftStory.com/static/css/main.3946d989.css.map",
+    "main.54920472.js.map": "/OurLiftStory.com/static/js/main.54920472.js.map",
     "787.e8d8a935.chunk.js.map": "/OurLiftStory.com/static/js/787.e8d8a935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.643903b0.css",
-    "static/js/main.8288fbd7.js"
+    "static/css/main.3946d989.css",
+    "static/js/main.54920472.js"
   ]
 }
