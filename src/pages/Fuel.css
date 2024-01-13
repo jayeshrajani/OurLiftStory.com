@@ -1,0 +1,71 @@
+.fuel-hero {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    background-image: url(../assets/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    padding: 4rem;
+    flex-wrap: wrap; 
+    
+}
+
+.fuel-card {
+    margin: 0 2rem 2rem 2rem; 
+    width: calc((88% - 6rem) / 3); 
+    height: 18rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.fuel-card:hover{
+    transform: scale(1.1);
+}
+
+.card-heading {
+    color: navajowhite;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.card-content{
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 767px) {
+    .fuel-hero{
+        background-image: url(../assets/phoneBg1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat-y;
+        display: flex;
+        align-items: flex-start; 
+        justify-content: center;
+        
+        padding: 4rem 0; 
+        flex-wrap: wrap; 
+        
+    }
+    .fuel-card{
+        background-color: rgb(155, 201, 115);
+        width: 60%; 
+        height: fit-content;
+        margin: 10px 2rem 10px 2rem; 
+        padding:1rem;
+        
+
+    }
+    .card-heading{
+        font-size: 1rem;
+    }
+    .card-content{
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,43 @@
+.pplsplit1-hero {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    background-image: url(../assets/broSplitBg.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.pplsplit1-hero h2 {
+    font-size: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+
+.pplsplit-data{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.moreSplits button{
+    margin-top: 1vw;
+    background-color: #5a0202; /* Dark background color */
+    color: #ffffff; /* White text color */
+    border: 2px solid #ffffff; /* White border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.moreSplits button:hover {
+    transform: scale(1.2);
+    background-color: #555555; 
+  }

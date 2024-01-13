@@ -1,0 +1,129 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.home-left{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home-left h3{
+    color: white;
+    font-size: 8rem;
+}
+
+.home-left h3:nth-child(2){
+    font-family: 'Metal Mania', sans-serif;
+    font-size: 3.6rem;
+    color: red;
+    letter-spacing: 1rem;
+    margin-left: 1rem;
+}
+.spartan{
+    width: 20rem;
+}
+.home-right{
+    margin-left: 10%;
+    width: 40%;
+    height: calc(100vh - 4rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    gap: 2rem;
+    color: white;
+    background-image: url(../assets/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.home-right-top{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    /* align-items: center; */
+    transition: all 0.3s ease-in-out;
+
+}
+.home-right:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
+.home-right-top span{
+    color: aquamarine;
+}
+.home-right-top button {
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 3px 10px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent; /* Add a transparent border */
+    transition: all 0.3s ease-in-out;
+}
+
+.home-right-top button:hover {
+    border: 1px solid white; /* Change to a solid border on hover */
+    background-color: black;
+    color: grey;
+}
+.home-right-top h1{
+    font-size: 2rem;
+}
+
+
+
+  @media screen and (max-width:767px) {
+    .home{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+    .spartan{
+        width: 5rem;
+    }
+    .home-right{
+        padding: 1rem 0;
+        margin-left: 0;
+        width: 100%;
+        height: calc(100vh - 4rem);
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+        color: white;
+        background-color: transparent;
+    }
+    .home-right-top{
+        background-color: rgb(37, 37, 37);
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+    
+    }
+  }
+
+

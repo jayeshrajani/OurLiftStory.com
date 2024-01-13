@@ -1,0 +1,121 @@
+.story-hero {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    background-image: url(../assets/bg6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap; 
+    color: rgb(255, 255, 255);
+    
+}
+
+.story-text{
+    padding: 1rem;
+    /* border: 2px solid white;  */
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    z-index: 0;
+}
+
+.story-text p{
+    letter-spacing: 2px;
+}
+
+.story-text span{
+    color: red;
+    font-style: italic;    
+}
+
+.story-top{
+    width: 100%;
+    display: flex;
+    
+}
+.audio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.audio img{
+    width: 4rem;
+    height: 6rem;
+}
+
+.instagram{
+    position: absolute;
+    top: 10rem;
+    right: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+}
+.instagram button{
+    width: fit-content;
+    padding: 5px 10px;
+    /* border: none ; */
+    border-color: transparent;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.instagram button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border: 2px solid white;
+}
+
+.instagram img{
+    width: 50px;
+}
+
+.instagram-redirect{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 767px) {
+    .story-hero{
+        background-image: none;
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        height: min-content;
+
+        
+    }
+    .story-top{
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .story-text{
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        margin: 0;
+        padding: 10px;
+        width: 60%;
+        height: fit-content;
+        border-radius: 0;
+        backdrop-filter: none;
+    }
+    .story-text p{
+        font-size: 0.8rem;
+    }
+    .audio{
+        position: absolute;
+        bottom: 4rem;
+        right:-3rem;
+    }
+}

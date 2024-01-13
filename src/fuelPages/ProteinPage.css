@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.protein-importance-card {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    background-image: url(../assets/foodbg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    flex-wrap: wrap;
+    color: white;
+    z-index: -2;
+}
+
+.fuel-card-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.fuel-card-content {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+.fuel-card-content h4{
+    color: #FECB60;
+}
+.fuel-card-content ul {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+.fuel-card-content li {
+    margin-bottom: 0.5rem;
+}
+
+.explore {
+    margin-top: 1rem;
+    background-color: #5a0202; /* Dark background color */
+    color: #ffffff; /* White text color */
+    border: 2px solid #ffffff; /* White border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+}
+
+.explore:hover {
+    /* transform: scale(1.1);  */ 
+    background-color: #555555;
+}

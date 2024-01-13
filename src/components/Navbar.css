@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    margin: auto;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+    position: sticky;
+}
+
+.logo {
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.logo img {
+    width: 6rem;
+    height: 8rem;
+    align-self: center;
+    margin-top: 4rem;
+}
+
+.logo h5 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo h5:hover {
+    transform: scale(1.2);
+    color: #6f6f6f;
+}
+
+.nav-menu {
+    width: 60rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(129, 30, 30, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    margin: 0.75rem 0;
+    border-radius: 5rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    list-style: none;
+}
+
+.training-li {
+    display: flex;
+    align-items: center;
+}
+
+.training-arrow-img {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu ul li,
+.nav-menu ul li a {
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-menu ul li:hover {
+    transform: scale(1.5);
+}
+
+.nav-menu ul li a:hover {
+    color: #ffaa00;
+}
+
+.training-drop-menu {
+    position: absolute;
+    top: 2.5em;
+    right: 36rem;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(60, 60, 60);
+    z-index: 1000;
+}
+
+.training-drop-menu-default {
+    display: none;
+}
+
+.training-drop-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 6;
+}
+
+.training-drop-menu ul li {
+    margin-left: 2px;
+    padding: 0 2px;
+    list-style: square;
+    transition: all 0.2s ease-in-out;
+}
+
+.training-drop-menu ul li:hover {
+    transform: scale(1.2) translateX(5px);
+    filter: brightness(1.2);
+    filter: drop-shadow(2);
+    color: red;
+}
+
+.training-drop-menu ul li a:hover {
+    transform: scale(1.2) translateX(5px);
+    filter: brightness(1.2);
+    filter: drop-shadow(2);
+    color: red;
+}
+
+.hamburger {
+    display: none;
+}
+
+.ham {
+    color: white;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ham::before,
+.ham::after {
+    content: '';
+    position: absolute;
+    color: white;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.ham::before {
+    transform: translateY(-6px);
+}
+
+.ham::after {
+    transform: translateY(6px);
+}
+
+.ham.open {
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.ham.open::before {
+    transform: translateY(-10px) translateX(30px) rotate(45deg);
+}
+
+.ham.open::after {
+    transform: translateY(-10px) translateX(30px) rotate(-45deg);
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        position: sticky;
+    }
+    .logo img {
+        width: 4rem;
+        height: 6rem;
+        margin-left: -2rem;
+    }
+
+    .logo h5 {
+        font-size: 1rem;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .openMenu {
+        display: flex;
+        padding: 1rem;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 2.8rem;
+        right: 0.5rem;
+        background-color: transparent;
+        border: 1px solid white;
+        backdrop-filter: blur(100px);
+        border-radius: 1rem;
+        z-index: 6;
+        overflow: visible;
+    }
+
+    .openMenu ul {
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        gap: 1rem;
+        list-style: none;
+        z-index: 5;
+    }
+
+    .openMenu ul li,
+    .openMenu ul li a {
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        color: white;
+        z-index: 5;
+    }
+
+    .hamburger {
+        display: flex;
+        margin-top: 0.3rem;
+        margin-right: -1rem;
+    }
+
+    .training-drop-menu {
+        position: absolute;
+        top: 5rem;
+        right: 12rem;
+        color: white;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background-color: rgb(60, 60, 60);
+        z-index: 1000;
+    }
+
+    .training-menu-img {
+        display: none;
+    }
+}

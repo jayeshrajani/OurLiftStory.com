@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../assets/arnoldXBroSplitBg.jpg);
+    color: #ffffff; /* White text color */
+    background-size: cover;
+    background-position: right;
+    backdrop-filter: blur(5px);
+}
+
+.training-page-right {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+.training-page-right-top {
+    text-align: center;
+    margin-bottom: 2rem;
+    z-index: -2;
+}
+
+.training-page-right-top h1 {
+    font-size: 2.5rem;
+    z-index: -2;
+}
+
+.training-page-right-top span {
+    color: #FF6D00; /* Orange color for the span */
+    z-index: -2;
+}
+
+.training-page-right-top button {
+    background-color: #FF6D00; /* Orange button background color */
+    color: #ffffff; /* White button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.training-page-right-top button:hover {
+    background-color: #555555; /* Darker background color on hover */
+    transform: scale(1.15);
+}
+
+@media screen and (max-width: 767px) {
+    .training-page-right {
+        position: relative; /* Add this line */
+        z-index: -4;
+        background-color: transparent;
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat-y;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 4rem 0;
+        flex-wrap: wrap;
+    }
+}

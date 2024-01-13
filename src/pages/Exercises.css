@@ -1,0 +1,111 @@
+.exercises-hero {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  background-color: black;
+}
+
+.exercises-top {
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.exercises-top input{
+    background-color: rgb(189, 187, 187);
+    color: black;
+    width: 15rem;
+    padding: 5px 12px;
+    border-radius: 3px;
+    z-index: 3;
+    border: none;
+    
+
+}
+
+.exercises-top input::placeholder{
+    color: rgb(79, 77, 77);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.inputbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+    
+}
+
+.inputbar button{
+    color: rgb(0, 247, 255);
+    background-color: grey;
+        border: none;
+        padding:5.5px;
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        z-index: 4;
+        margin-top: -0.25px;
+}
+
+.exercises-data {
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 1vw;
+  }
+  
+  .singleExercise-datacard {
+    padding: 1rem;
+    width: calc(33.33% - 1vw); 
+    height: 28rem;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 1vw; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; 
+    border-radius: 10%;
+  }
+
+  .singleExercise-datacard img{
+    aspect-ratio: 1 / 1;
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+  }
+
+  .datacard-exercise-name {
+    color: rgb(105, 250, 255);
+  }
+
+  .datacard-exercise-bodypart{
+    color: rgb(214, 109, 130);
+  }
+
+  .datacard-exercise-equipment{
+    color: yellowgreen;
+  }
+
+  .errorExdata{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  }

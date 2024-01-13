@@ -1,0 +1,15 @@
+.explore {
+  margin: 1vw;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+  border: none;
+  transform: scale(1); /* Initial scale */
+}
+
+.explore:hover {
+  color: white;
+  border: none;
+  background-color: #562323;
+  transform: scale(1.3); /* Scale on hover */
+}
